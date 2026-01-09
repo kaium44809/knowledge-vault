@@ -26,6 +26,7 @@ header {
     align-items: center;
     padding: 10px 80px;
     display: flex;
+    color: black;
 }
 
 button {
@@ -80,12 +81,18 @@ a {
 }
 
 .btn-1 {
+    display: flex;
+    align-items: center;
+    gap: 4px;
     background-color: rgb(61, 153, 61);
     color: white;
     border: none;
 }
 
 .btn-2 {
+    display: flex;
+    align-items: center;
+    gap: 4px;
     border: 1px solid white;
     background: transparent;
     color: white;
@@ -94,7 +101,14 @@ a {
 .sp-1 {
     color: rgb(58, 197, 58);
 }
-
+.sp-2{
+    right: 500px;
+    color: black;
+    font-size: 14px;
+}
+.sp-3{
+    right: 500px;
+}
 .gap-1 {
     justify-content: center;
     gap: 5%;
