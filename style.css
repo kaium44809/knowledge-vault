@@ -1,12 +1,11 @@
-
-.inter-<uniquifier> {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font width: 500;
-  font-style: normal;
+.font-1{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
+
 * {
-    font-family:"Inter", sans-serif;
+    font-family: "Inter", sans-serif;
     box-sizing: border-box;
     transition: .4s ease;
     position: relative;
@@ -34,14 +33,17 @@ button {
     cursor: pointer;
     padding: 12px 18px;
     align-items: center;
+    border-radius: 4px;
     justify-content: space-between;
 }
-footer{
+
+footer {
     background-color: rgb(10, 14, 70);
 }
-p{
-    display: flex;
+
+p {
     align-items: center;
+    display: flex;
     gap: 5px;
 }
 
@@ -58,24 +60,27 @@ a {
 
 .df-c {
     display: flex;
-    flex-direction: column;
     row-gap: 20px;
+    flex-direction: column;
 }
-.op{
+
+.op {
     opacity: 70%;
 }
-.op-0{
+
+.op-0 {
     opacity: 100%;
 }
+
 .navbar {
-    gap: 20px;
+    gap: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .btn-1 {
-    background-color: rgb(68, 214, 68);
+    background-color: rgb(61, 153, 61);
     color: white;
     border: none;
 }
@@ -87,7 +92,7 @@ a {
 }
 
 .sp-1 {
-    color: rgb(60, 219, 60);
+    color: rgb(58, 197, 58);
 }
 
 .gap-1 {
@@ -114,7 +119,7 @@ a {
     background-color: white;
     color: greenyellow;
     border-radius: 30px;
-    padding: 8px 30px;
+    padding: 8px 22px;
 }
 
 .offer span {
@@ -175,8 +180,9 @@ a {
     row-gap: 10px;
     height: 230px;
 }
+
 /* --------THE SOLUTION-------- */
-.slide{
+.slide {
     background-color: white;
     justify-content: center;
     align-items: center;
@@ -184,52 +190,82 @@ a {
     padding: 50px;
     gap: 40px;
 }
-.solution{
+
+.solution {
     flex-direction: column;
     display: flex;
     row-gap: 20px;
 }
+
 /* --------READY-------- */
-.ready{
+.ready {
     display: flex;
+    padding: 100px 50px;
     align-items: center;
     justify-content: center;
     background-color: white;
-    padding: 100px 50px;
 }
-.clearly{
+
+.clearly {
     background-color: rgba(222, 222, 223, 0.658);
     justify-content: center;
     align-items: center;
     padding: 50px 270px;
-    text-align: center;
     border-radius: 18px;
+    text-align: center;
 }
+
 /* -------FOOTER-LAYOUT------- */
-.logo{
-    justify-self:left;
+.logo {
+    justify-self: left;
     margin-top: 10px;
     gap: 6px;
 }
-.logo img{
+
+.logo img {
     padding: 4px;
-    background: whitesmoke;
-    border-radius: 50%;
     height: 20px;
+    border-radius: 50%;
+    background: whitesmoke;
 }
-.foot{
+
+.foot {
     padding: 0px 100px;
     padding-top: 100px;
 }
-.toe-1{
+
+.toe-1 {
     color: white;
-    justify-content: space-between;
     padding: 0px 5px;
+    justify-content: space-between;
 }
-.toe-2{
+
+.toe-2 {
     border-top: 1px solid rgba(245, 245, 245, 0.658);
-    padding: 30px 360px;
-    color: white;
     justify-self: center;
+    padding: 30px 360px;
     margin-top: 50px;
+    color: white;
+}
+
+button:hover,
+a:hover {
+    transform: scale(1.1);
+}
+
+.cr-1:hover,
+.cr-2:hover,
+.cr-3:hover,
+.cr-4:hover {
+    transform: scale(1.05);
+    bottom: 10px;
+}
+
+p img:hover {
+    transform: scale(1.04);
+}
+
+::selection {
+    color: crimson;
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.288);
 }
