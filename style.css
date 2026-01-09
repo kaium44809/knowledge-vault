@@ -36,6 +36,9 @@ button {
     align-items: center;
     justify-content: space-between;
 }
+footer{
+    background-color: rgb(10, 14, 70);
+}
 p{
     display: flex;
     align-items: center;
@@ -201,4 +204,32 @@ a {
     padding: 50px 270px;
     text-align: center;
     border-radius: 18px;
+}
+/* -------FOOTER-LAYOUT------- */
+.logo{
+    justify-self:left;
+    margin-top: 10px;
+    gap: 6px;
+}
+.logo img{
+    padding: 4px;
+    background: whitesmoke;
+    border-radius: 50%;
+    height: 20px;
+}
+.foot{
+    padding: 0px 100px;
+    padding-top: 100px;
+}
+.toe-1{
+    color: white;
+    justify-content: space-between;
+    padding: 0px 5px;
+}
+.toe-2{
+    border-top: 1px solid rgba(245, 245, 245, 0.658);
+    padding: 30px 360px;
+    color: white;
+    justify-self: center;
+    margin-top: 50px;
 }
