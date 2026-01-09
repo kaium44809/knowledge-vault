@@ -1,5 +1,12 @@
+
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font width: 500;
+  font-style: normal;
+}
 * {
-    font-family: sans-serif;
+    font-family:"Inter", sans-serif;
     box-sizing: border-box;
     transition: .4s ease;
     position: relative;
@@ -8,9 +15,9 @@
 
 /* -------MOD------ */
 body {
-    white-space: nowrap;
     overflow-x: hidden;
     align-items: center;
+    white-space: nowrap;
     background-color: whitesmoke;
 }
 
@@ -18,13 +25,14 @@ header {
     justify-content: space-between;
     background-color: white;
     align-items: center;
-    display: flex;
     padding: 10px 80px;
+    display: flex;
 }
 
 button {
-    padding: 12px 18px;
     display: flex;
+    cursor: pointer;
+    padding: 12px 18px;
     align-items: center;
     justify-content: space-between;
 }
@@ -52,6 +60,9 @@ a {
 }
 .op{
     opacity: 70%;
+}
+.op-0{
+    opacity: 100%;
 }
 .navbar {
     gap: 20px;
@@ -88,29 +99,29 @@ a {
     flex-direction: column;
     padding: 100px 120px;
     align-items: center;
-    line-height: 180%;
+    margin-bottom: 40px;
     text-align: center;
+    line-height: 180%;
     row-gap: 20px;
     color: white;
     display: flex;
-    margin-bottom: 40px;
 }
 
 .offer {
     background-color: white;
-    border-radius: 30px;
     color: greenyellow;
+    border-radius: 30px;
     padding: 8px 30px;
 }
 
 .offer span {
+    box-shadow: 0px 0px 8px rgb(153, 255, 0);
+    background-color: greenyellow;
     border-radius: 50%;
     padding: 2px 1px;
     font-size: 10px;
-    background-color: greenyellow;
-    box-shadow: 0px 0px 8px rgb(153, 255, 0);
-    right: 6px;
     bottom: 2px;
+    right: 6px;
 }
 
 .note {
@@ -134,14 +145,14 @@ a {
 
 .card span {
     background-color: rgb(204, 62, 62);
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
     border-radius: 50%;
+    align-self: center;
     padding: 5.5px;
     display: flex;
-    justify-content: center;
-    align-items: center;
     width: 50px;
-    align-self: center;
-    justify-self: center;
 
 }
 
@@ -154,24 +165,40 @@ a {
 .cr-3,
 .cr-4 {
     background-color: white;
+    flex-direction: column;
     border-radius: 4px;
     padding: 40px 20px;
     display: flex;
-    flex-direction: column;
     row-gap: 10px;
     height: 230px;
 }
 /* --------THE SOLUTION-------- */
 .slide{
     background-color: white;
-    padding: 50px;
     justify-content: center;
     align-items: center;
     text-align: left;
+    padding: 50px;
     gap: 40px;
 }
 .solution{
-    display: flex;
     flex-direction: column;
+    display: flex;
     row-gap: 20px;
+}
+/* --------READY-------- */
+.ready{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 100px 50px;
+}
+.clearly{
+    background-color: rgba(222, 222, 223, 0.658);
+    justify-content: center;
+    align-items: center;
+    padding: 50px 270px;
+    text-align: center;
+    border-radius: 18px;
 }
